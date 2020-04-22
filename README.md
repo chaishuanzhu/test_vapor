@@ -18,3 +18,15 @@
         <img src="http://img.shields.io/badge/swift-5.1-brightgreen.svg" alt="Swift 5.1">
     </a>
 </p>
+
+https://docs.vapor.codes/3.0
+http://swiftyjimmy.com/server-side-swift-vapor/
+https://medium.com/@boramaapps/vapor-swift-mysql-docker-compose-52e4651ee806
+https://github.com/docker/for-linux/issues/812
+https://github.com/standinga/vapordockercomposetodo
+
+```
+docker build -t todoserver:1.0.0 . -f web.Dockerfile
+docker tag todoserver:1.0.0 870027381/test_vapor:1.0.0
+docker push 870027381/test_vapor:1.0.0
+```
